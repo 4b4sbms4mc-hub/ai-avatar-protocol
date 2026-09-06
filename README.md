@@ -1,6 +1,20 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # AI Avatar Protocol (AIAP) v0.3
 
+## Reference Implementations
+
+AIAP is designed as a runtime-neutral open interoperability standard.
+
+The first public reference adapter is:
+
+-**AIAP OpenClaw Adapter**-
+an OpenClaw-compatible reference implementation demonstrating AIAP Avatar identity, ownership, portability, MCP integration, and cross-runtime interoperability.
+
+Repository:
+https://github.com/4b4sbms4mc-hub/aiap-openclaw
+
+>OpenClaw is a reference integration target and is not part of the AIAP core standard.
+
 > **Public Release v0.3.0** — AIAP is intended as an open interoperability standard. Independent open-source and proprietary implementations are permitted under the repository license map. See `OPEN-STANDARD-POLICY.md`, `GOVERNANCE.md`, `LICENSE`, `IP-POLICY.md`, and `TRADEMARK.md`.
 
 
