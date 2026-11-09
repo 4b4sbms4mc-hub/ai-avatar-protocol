@@ -1,0 +1,16 @@
+{
+  "request_id": "req:demo",
+  "authenticated_subject_ref": "aiap-id:demo-a",
+  "auth_evidence_ref": "session-auth:demo",
+  "avatar_id": "avatar:demo-a",
+  "session_ref": "session:demo",
+  "runtime_ref": "runtime:openclaw-test",
+  "space_refs": [
+    "space:work"
+  ],
+  "action": "read",
+  "purpose": "server-setup",
+  "processor_refs": [],
+  "issued_at": "2026-09-19T00:00:00Z",
+  "expires_at": "2026-09-20T00:00:00Z"
+}

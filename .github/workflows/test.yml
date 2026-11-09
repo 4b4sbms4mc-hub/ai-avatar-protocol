@@ -9,4 +9,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -e .[dev]
-      - run: pytest
+      - run: pytest tests
+      - run: pip install -r drafts/core-profile-v0.1/requirements.txt
+      - run: python drafts/core-profile-v0.1/tools/validate.py
+      - run: python -m unittest discover -s drafts/core-profile-v0.1/tests -v

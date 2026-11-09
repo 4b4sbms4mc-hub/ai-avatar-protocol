@@ -1,0 +1,17 @@
+{
+  "policy_id": "lifecycle:default",
+  "revision": 1,
+  "previous_revision": null,
+  "archive_after_days": {
+    "M1": 30,
+    "M2": 180
+  },
+  "expected_use_protection_days": 30,
+  "automatic_archive": true,
+  "never_auto_delete": true,
+  "protect_pinned": true,
+  "protect_stable_preferences": true,
+  "protect_recurring": true,
+  "protect_active_tasks": true,
+  "use_basis": "authorized-context-use"
+}

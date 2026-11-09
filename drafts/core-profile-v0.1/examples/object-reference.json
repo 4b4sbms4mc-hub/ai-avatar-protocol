@@ -1,0 +1,13 @@
+{
+  "id": "mem:step-by-step",
+  "version": 1,
+  "scope": {
+    "owner_ref": "aiap-id:demo-a",
+    "space_ref": "space:work",
+    "policy_ref": {
+      "id": "policy:space:work",
+      "version": 1
+    }
+  },
+  "sha256": "1568d38521611cbeb4b9159572041f75447980dd99c3d35f4ef946efa7db73c9"
+}

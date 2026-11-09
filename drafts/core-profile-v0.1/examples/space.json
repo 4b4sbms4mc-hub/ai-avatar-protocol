@@ -1,0 +1,14 @@
+{
+  "space_id": "space:work",
+  "revision": 1,
+  "previous_revision": null,
+  "kind": "personal-work",
+  "controller_ref": "aiap-id:demo-a",
+  "parent_ref": null,
+  "policy_ref": {
+    "id": "policy:space:work",
+    "version": 1
+  },
+  "key_scope_ref": "key-scope:work",
+  "status": "active"
+}

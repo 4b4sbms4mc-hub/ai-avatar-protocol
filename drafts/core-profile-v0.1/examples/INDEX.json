@@ -1,0 +1,92 @@
+[
+  {
+    "file": "examples/access-request.json",
+    "schema": "schemas/access-request.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/authorized-view.json",
+    "schema": "schemas/authorized-view.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/avatar-core.json",
+    "schema": "schemas/avatar-core.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/bundle-manifest.json",
+    "schema": "schemas/bundle-manifest.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/consent-policy.json",
+    "schema": "schemas/consent-policy.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/lifecycle-policy.json",
+    "schema": "schemas/lifecycle-policy.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/membership.json",
+    "schema": "schemas/membership.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/memory-life.json",
+    "schema": "schemas/memory-record.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/memory-organization.json",
+    "schema": "schemas/memory-record.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/memory-record.json",
+    "schema": "schemas/memory-record.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/object-reference.json",
+    "schema": "schemas/object-reference.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/profile-manifest.json",
+    "schema": "schemas/profile-manifest.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/scoped-transfer-certificate.json",
+    "schema": "schemas/scoped-transfer-certificate.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/space.json",
+    "schema": "schemas/space.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/state-delta.json",
+    "schema": "schemas/state-delta.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/state-profile.json",
+    "schema": "schemas/state-profile.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/tombstone.json",
+    "schema": "schemas/tombstone.schema.json",
+    "expected": "valid-structure"
+  },
+  {
+    "file": "examples/transfer-manifest.json",
+    "schema": "schemas/transfer-manifest.schema.json",
+    "expected": "valid-structure"
+  }
+]

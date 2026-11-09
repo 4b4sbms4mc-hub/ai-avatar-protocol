@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "certificate_id": "certificate:demo",
+    "profile_version": "0.1-draft",
+    "source_ref": "runtime:source-demo",
+    "destination_ref": "runtime:destination-demo",
+    "owner_refs": [
+      "aiap-id:demo-a"
+    ],
+    "avatar_ids": [
+      "avatar:demo-a"
+    ],
+    "space_refs": [
+      "space:work"
+    ],
+    "mode": "backup-copy",
+    "nonce": "synthetic-nonce-not-for-real-use-0001",
+    "issued_at": "2026-09-19T00:00:00Z",
+    "expires_at": "2026-09-20T00:00:00Z",
+    "manifest_sha256": "0e864449a906be170071f835cc71108dd14ae01307f7ab86b5dfeec4250aa725",
+    "authorization_refs": [
+      {
+        "id": "consent:export-demo",
+        "version": 1
+      }
+    ],
+    "required_extensions": [
+      {
+        "namespace": "x-aiap-core-profile",
+        "version": "0.1-draft",
+        "critical": true
+      }
+    ]
+  },
+  "proofs": [
+    {
+      "crypto_profile": "fixture-only-not-verifiable",
+      "key_ref": "key:demo",
+      "signature": "NOT_A_SIGNATURE"
+    }
+  ]
+}

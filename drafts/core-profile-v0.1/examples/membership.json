@@ -1,0 +1,17 @@
+{
+  "membership_id": "membership:family-a",
+  "revision": 1,
+  "previous_revision": null,
+  "subject_ref": "aiap-id:demo-a",
+  "space_ref": "space:family",
+  "roles": [
+    "member"
+  ],
+  "valid_from": "2026-09-19T00:00:00Z",
+  "expires_at": "2026-09-20T00:00:00Z",
+  "status": "active",
+  "authorization_ref": {
+    "id": "consent:family",
+    "version": 1
+  }
+}
