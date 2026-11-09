@@ -1,0 +1,64 @@
+{
+  "aiap_version": "0.4.2",
+  "profile_version": "0.1-draft",
+  "avatar_id": "avatar:demo-a",
+  "owner": {
+    "owner_ref": "aiap-id:demo-a",
+    "owner_key_ref": "key:owner-demo",
+    "avatar_key_ref": "key:avatar-demo"
+  },
+  "revision": 1,
+  "previous_revision": null,
+  "identity_refs": [
+    "identity:demo-a"
+  ],
+  "profile_summary": [
+    {
+      "id": "mem:step-by-step",
+      "version": 1,
+      "scope": {
+        "owner_ref": "aiap-id:demo-a",
+        "space_ref": "space:work",
+        "policy_ref": {
+          "id": "policy:space:work",
+          "version": 1
+        }
+      },
+      "sha256": "1568d38521611cbeb4b9159572041f75447980dd99c3d35f4ef946efa7db73c9"
+    }
+  ],
+  "state_index": [
+    {
+      "id": "mem:step-by-step",
+      "version": 1,
+      "scope": {
+        "owner_ref": "aiap-id:demo-a",
+        "space_ref": "space:work",
+        "policy_ref": {
+          "id": "policy:space:work",
+          "version": 1
+        }
+      },
+      "sha256": "1568d38521611cbeb4b9159572041f75447980dd99c3d35f4ef946efa7db73c9"
+    }
+  ],
+  "procedural_index": [],
+  "extensions": [
+    {
+      "namespace": "x-aiap-core-profile",
+      "version": "0.1-draft",
+      "critical": true
+    }
+  ],
+  "integrity": {
+    "manifest_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "proofs": [
+      {
+        "crypto_profile": "fixture-only-not-verifiable",
+        "key_ref": "key:demo",
+        "signature": "NOT_A_SIGNATURE"
+      }
+    ]
+  },
+  "updated_at": "2026-09-19T00:00:00Z"
+}

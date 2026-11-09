@@ -1,0 +1,45 @@
+{
+  "memory_id": "mem:step-by-step",
+  "level": "M2",
+  "type": "preference-evidence",
+  "content": "配置服务器时，每次只给一个操作步骤，等我反馈后再继续。",
+  "source": {
+    "source_type": "explicit-user",
+    "source_ref": "evidence:synthetic-confirmation"
+  },
+  "confidence": 1,
+  "importance": 0.9,
+  "recall_count": 0,
+  "created_at": "2026-09-19T00:00:00Z",
+  "updated_at": "2026-09-19T00:00:00Z",
+  "status": "active",
+  "retention": {
+    "pinned": true,
+    "decay_exempt": true
+  },
+  "scope": {
+    "owner_ref": "aiap-id:demo-a",
+    "space_ref": "space:work",
+    "policy_ref": {
+      "id": "policy:space:work",
+      "version": 1
+    }
+  },
+  "revision": 1,
+  "previous_revision": null,
+  "derived_from": [],
+  "lifecycle": {
+    "policy_ref": {
+      "id": "lifecycle:default",
+      "version": 1
+    },
+    "last_used_at": null,
+    "context_use_count": 0,
+    "confirmed_use_count": 0,
+    "stable_preference": true,
+    "recurrence_ref": null,
+    "expected_next_use": null,
+    "last_verified": "2026-09-19T00:00:00Z",
+    "active_task_refs": []
+  }
+}

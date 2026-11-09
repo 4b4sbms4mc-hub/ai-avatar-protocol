@@ -1,0 +1,272 @@
+{
+  "package": "AIAP Core Profile v0.1-draft",
+  "author": "Wang Lu",
+  "whitepaper_basis": "0.4.2",
+  "executed_at": "2026-09-19T04:50:44.437797+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "jsonschema": "4.26.0",
+    "rfc3339-validator": "0.1.4"
+  },
+  "command": "python -m unittest discover -s tests -v",
+  "exit_code": 0,
+  "tests_run": 61,
+  "failures": 0,
+  "errors": 0,
+  "tests": [
+    {
+      "name": "test_active_task_protected",
+      "status": "passed"
+    },
+    {
+      "name": "test_admin_not_read",
+      "status": "passed"
+    },
+    {
+      "name": "test_background_recall_not_use",
+      "status": "passed"
+    },
+    {
+      "name": "test_bad_future_clock",
+      "status": "passed"
+    },
+    {
+      "name": "test_bundle_nonempty",
+      "status": "passed"
+    },
+    {
+      "name": "test_cannot_disable_pinned_guard",
+      "status": "passed"
+    },
+    {
+      "name": "test_cannot_enable_auto_delete",
+      "status": "passed"
+    },
+    {
+      "name": "test_confidence_range",
+      "status": "passed"
+    },
+    {
+      "name": "test_deleted_separate_tombstone",
+      "status": "passed"
+    },
+    {
+      "name": "test_delta_avatar_mismatch",
+      "status": "passed"
+    },
+    {
+      "name": "test_delta_cannot_self_accept",
+      "status": "passed"
+    },
+    {
+      "name": "test_delta_inferred_not_fact",
+      "status": "passed"
+    },
+    {
+      "name": "test_delta_missing_binding",
+      "status": "passed"
+    },
+    {
+      "name": "test_delta_scope_tamper",
+      "status": "passed"
+    },
+    {
+      "name": "test_delta_stale",
+      "status": "passed"
+    },
+    {
+      "name": "test_delta_valid_binding",
+      "status": "passed"
+    },
+    {
+      "name": "test_deny_wins",
+      "status": "passed"
+    },
+    {
+      "name": "test_duplicate_avatar_different_record",
+      "status": "passed"
+    },
+    {
+      "name": "test_embedding_not_implicitly_authorized",
+      "status": "passed"
+    },
+    {
+      "name": "test_examples",
+      "status": "passed"
+    },
+    {
+      "name": "test_expected_use_protected",
+      "status": "passed"
+    },
+    {
+      "name": "test_expired",
+      "status": "passed"
+    },
+    {
+      "name": "test_export_not_read",
+      "status": "passed"
+    },
+    {
+      "name": "test_fixture_never_activates",
+      "status": "passed"
+    },
+    {
+      "name": "test_invalid_date",
+      "status": "passed"
+    },
+    {
+      "name": "test_invalid_level",
+      "status": "passed"
+    },
+    {
+      "name": "test_known_extension",
+      "status": "passed"
+    },
+    {
+      "name": "test_legacy_archived_must_migrate",
+      "status": "passed"
+    },
+    {
+      "name": "test_life_not_work",
+      "status": "passed"
+    },
+    {
+      "name": "test_m3_active_usable",
+      "status": "passed"
+    },
+    {
+      "name": "test_missing_critical",
+      "status": "passed"
+    },
+    {
+      "name": "test_missing_policy",
+      "status": "passed"
+    },
+    {
+      "name": "test_missing_scope",
+      "status": "passed"
+    },
+    {
+      "name": "test_missing_source_ref",
+      "status": "passed"
+    },
+    {
+      "name": "test_new_state_old_structure_accepts_but_not_security",
+      "status": "passed"
+    },
+    {
+      "name": "test_old_policy",
+      "status": "passed"
+    },
+    {
+      "name": "test_old_state_not_new_profile",
+      "status": "passed"
+    },
+    {
+      "name": "test_optional_unknown_preserved",
+      "status": "passed"
+    },
+    {
+      "name": "test_organization_not_personal",
+      "status": "passed"
+    },
+    {
+      "name": "test_original_state",
+      "status": "passed"
+    },
+    {
+      "name": "test_other_member_denied",
+      "status": "passed"
+    },
+    {
+      "name": "test_other_organization_denied",
+      "status": "passed"
+    },
+    {
+      "name": "test_pinned_stays",
+      "status": "passed"
+    },
+    {
+      "name": "test_private_work_allowed",
+      "status": "passed"
+    },
+    {
+      "name": "test_recent_stays",
+      "status": "passed"
+    },
+    {
+      "name": "test_recurring_protected",
+      "status": "passed"
+    },
+    {
+      "name": "test_revocation",
+      "status": "passed"
+    },
+    {
+      "name": "test_stable_stays",
+      "status": "passed"
+    },
+    {
+      "name": "test_tombstone_blocks_old_copy",
+      "status": "passed"
+    },
+    {
+      "name": "test_tombstone_cannot_hold_content",
+      "status": "passed"
+    },
+    {
+      "name": "test_transfer_consistent_structure",
+      "status": "passed"
+    },
+    {
+      "name": "test_transfer_expired",
+      "status": "passed"
+    },
+    {
+      "name": "test_transfer_missing_nonce",
+      "status": "passed"
+    },
+    {
+      "name": "test_transfer_tampered_bytes",
+      "status": "passed"
+    },
+    {
+      "name": "test_transfer_wrong_destination",
+      "status": "passed"
+    },
+    {
+      "name": "test_transfer_wrong_scope",
+      "status": "passed"
+    },
+    {
+      "name": "test_unknown_critical",
+      "status": "passed"
+    },
+    {
+      "name": "test_unused_archives",
+      "status": "passed"
+    },
+    {
+      "name": "test_wrong_purpose",
+      "status": "passed"
+    },
+    {
+      "name": "test_wrong_runtime",
+      "status": "passed"
+    },
+    {
+      "name": "test_wrong_session",
+      "status": "passed"
+    }
+  ],
+  "new_schemas": 17,
+  "examples_validated": 18,
+  "upstream_files_byte_identical": 29,
+  "schema_resolution": "local registry; no remote retrieval",
+  "limits": [
+    "Finite trusted-fixture semantics only; not an authorization service.",
+    "No real signatures, identity verification, persistent replay prevention or transfer activation.",
+    "No OpenClaw deployment, database concurrency or cache isolation integration tests.",
+    "State-profile structural validity does not authorize whole-container disclosure."
+  ]
+}

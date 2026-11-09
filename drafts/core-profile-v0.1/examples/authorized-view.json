@@ -1,0 +1,36 @@
+{
+  "view_id": "view:demo",
+  "request_ref": "req:demo",
+  "avatar_id": "avatar:demo-a",
+  "subject_ref": "aiap-id:demo-a",
+  "session_ref": "session:demo",
+  "runtime_ref": "runtime:openclaw-test",
+  "purpose": "server-setup",
+  "space_refs": [
+    "space:work"
+  ],
+  "objects": [
+    {
+      "id": "mem:step-by-step",
+      "version": 1,
+      "scope": {
+        "owner_ref": "aiap-id:demo-a",
+        "space_ref": "space:work",
+        "policy_ref": {
+          "id": "policy:space:work",
+          "version": 1
+        }
+      },
+      "sha256": "1568d38521611cbeb4b9159572041f75447980dd99c3d35f4ef946efa7db73c9"
+    }
+  ],
+  "policy_versions": [
+    {
+      "id": "policy:space:work",
+      "version": 1
+    }
+  ],
+  "revocation_epoch": 0,
+  "compiled_at": "2026-09-19T00:00:00Z",
+  "expires_at": "2026-09-20T00:00:00Z"
+}

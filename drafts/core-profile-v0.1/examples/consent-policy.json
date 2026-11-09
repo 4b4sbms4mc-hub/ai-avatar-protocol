@@ -1,0 +1,42 @@
+{
+  "policy_id": "policy:space:work",
+  "revision": 1,
+  "previous_revision": null,
+  "controller_ref": "aiap-id:demo-a",
+  "space_ref": "space:work",
+  "default_effect": "deny",
+  "rules": [
+    {
+      "rule_id": "rule:demo",
+      "effect": "allow",
+      "subjects": [
+        "aiap-id:demo-a"
+      ],
+      "actions": [
+        "read",
+        "write"
+      ],
+      "purposes": [
+        "server-setup"
+      ],
+      "session_refs": [
+        "session:demo"
+      ],
+      "runtime_refs": [
+        "runtime:openclaw-test"
+      ],
+      "processor_refs": [],
+      "object_ids": [
+        "mem:step-by-step"
+      ],
+      "valid_from": "2026-09-19T00:00:00Z",
+      "expires_at": "2026-09-20T00:00:00Z",
+      "membership_ref": null,
+      "authorization_evidence_ref": {
+        "id": "consent:demo",
+        "version": 1
+      },
+      "status": "active"
+    }
+  ]
+}

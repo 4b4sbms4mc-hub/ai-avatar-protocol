@@ -1,0 +1,28 @@
+{
+  "synchronized_on": "2026-11-09",
+  "author": "Wang Lu",
+  "status": "Design drafts; independent of implementation versions",
+  "documents": [
+    {
+      "file": "AIAP_Whitepaper_v0.4.2_CN.docx",
+      "sha256": "387b88f84fc8e56e40a7380587f948d2f3d1c526dae6de4941e2cc04d6ab6a85",
+      "markdown": "AIAP_Whitepaper_v0.4.2_CN.md"
+    },
+    {
+      "file": "AIAP_Whitepaper_v0.4.1_CN.docx",
+      "sha256": "db0fc3308fc29abb51ed9ae1c16c585eee79d912126a1fd8f9f4fa2bd0c522ff",
+      "markdown": "AIAP_Whitepaper_v0.4.1_CN.md"
+    },
+    {
+      "file": "AIAP_State_Model_v0.1_CN.docx",
+      "sha256": "1a6124f3e042e7a56364b54164eb210f6518528b80a2c1f9ade5e6041d557ed9",
+      "markdown": "AIAP_State_Model_v0.1_CN.md"
+    },
+    {
+      "file": "AIAP_Procedural_State_and_Capability_Architecture_v0.1_CN.docx",
+      "sha256": "626392ab2752248948c845b645f127c3ebdae8e524a29133db1e56c3d06060a6",
+      "markdown": "AIAP_Procedural_State_and_Capability_Architecture_v0.1_CN.md"
+    }
+  ],
+  "core_profile_archive_sha256": "8e69744cd702d67e1fe4a2528571c72d95e18f8b8f319765f1a78e5cfad65dfe"
+}

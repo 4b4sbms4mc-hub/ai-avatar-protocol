@@ -1,0 +1,21 @@
+{
+  "object_ref": {
+    "id": "mem:deleted-test",
+    "version": 1
+  },
+  "scope": {
+    "owner_ref": "aiap-id:demo-a",
+    "space_ref": "space:life",
+    "policy_ref": {
+      "id": "policy:space:life",
+      "version": 1
+    }
+  },
+  "deleted_at": "2026-09-19T00:00:00Z",
+  "authorization_ref": {
+    "id": "consent:delete-demo",
+    "version": 1
+  },
+  "purge_status": "pending",
+  "supersedes_through_revision": 1
+}
