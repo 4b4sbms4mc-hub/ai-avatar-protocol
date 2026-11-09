@@ -18,7 +18,7 @@ These drafts do not replace the public v0.3 identity/ownership/key/transfer spec
 | Procedural State / Runtime Adapter | 0.1 each | Object and six-interface contracts |
 | Core Profile | 0.1-draft | Versioned extension and limited rule fixtures |
 | Public v0.3 reference validator | 0.3.0 | Existing identity and transfer helpers |
-| La Vida / Core Service | 0.3.4 / 0.2.0 | Separate OpenClaw memory implementation |
+| La Vida / Core Service | 0.3.5 source candidate / 0.2.0; published plugin 0.3.4 | Separate OpenClaw memory implementation |
 
 Core Profile `SOURCE_MANIFEST.json` identifies the historical inputs recorded by that package. Those DOCX byte hashes differ from the current local documents published here. Both records are preserved; no byte-equivalence or complete semantic equivalence is claimed between different source snapshots. The current document manifest is the source of truth for this synchronization.
 
@@ -35,6 +35,8 @@ Core Profile `SOURCE_MANIFEST.json` identifies the historical inputs recorded by
 | Portable procedures | Upstream Capability, Workflow, Binding, Trace schemas | Protocol contracts | Complete execution and second-runtime continuity |
 
 Runtime evidence lives in [aiap-openclaw](https://github.com/4b4sbms4mc-hub/aiap-openclaw/tree/main/lavida). Schema acceptance alone never establishes identity, authorization, replay protection or safe execution. No Adapter L1/L2/L3 or complete AIAP compliance claim is added by this synchronization.
+
+The 0.3.5 source candidate includes actual LM Studio `qwen/qwen3.5-9b` conversation probes and retained failure history. The tested configuration directly presents three tool schemas, clarifies manual proposals despite disabled automatic capture, and uses exact identifiers for literal retrieval. This model-specific evidence does not certify default dynamic tool-directory behavior, production/NAS topology or historical revocation-aware restore. Publishing candidate source does not overwrite the existing 0.3.4 release assets.
 
 ## Validation
 

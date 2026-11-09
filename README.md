@@ -14,7 +14,7 @@ AIAP is designed as a runtime-neutral open interoperability standard.
 The first public reference adapter is:
 
 -**AIAP OpenClaw Adapter**-
-an OpenClaw reference integration. The current La Vida 0.3.4 / Core Service 0.2.0 prerelease implements a single-owner scoped memory proposal/approval/recall loop. The legacy v0.3.0 MCP validation bundle is separate; secure cross-runtime memory transfer and a second runtime remain future work.
+an OpenClaw reference integration. The published La Vida 0.3.4 / Core Service 0.2.0 prerelease implements a single-owner scoped memory proposal/approval/recall loop. The 0.3.5 source candidate corrects manual-proposal and literal-search guidance and adds model-specific conversation validation; see the implementation repository for exact evidence and limits. The legacy v0.3.0 MCP validation bundle is separate; secure cross-runtime memory transfer and a second runtime remain future work.
 
 Repository:
 https://github.com/4b4sbms4mc-hub/aiap-openclaw
